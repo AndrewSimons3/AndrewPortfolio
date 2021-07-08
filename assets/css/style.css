@@ -10757,7 +10757,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .btn-rounded {
-    display: none;
+    /* display: none; */
   }
 }
 .btn-rounded span {
@@ -10906,7 +10906,6 @@ a {
   top: 0;
   left: 0;
   opacity: 0;
-  visibility: hidden;
 }
 .portfolio-box .portfolio-info .caption {
   text-align: center;
