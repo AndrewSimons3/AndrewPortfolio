@@ -3,10 +3,32 @@
 
 .intro-section {
   @include gradient;
-  padding: 10rem 0 0 0;
+  padding: 5rem 0 0 0;
   width: 100%;
   height: 100%;
+  margin: auto;
 }
+
+.about-text {
+  width: 75%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+// .display-2 {
+//   text-align: center;
+// }
+
+// .col-md-6.intros.text-start {
+//   display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+// }
+
 
 // p {
 //   margin: 5%;

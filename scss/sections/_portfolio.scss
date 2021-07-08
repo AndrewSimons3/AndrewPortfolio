@@ -9,6 +9,7 @@
     }
 }
 
+
 .portfolio-box {
     position: relative;
     width: 100%;
@@ -43,6 +44,7 @@
             }
         }
     }
+
     &:hover {
 
         img {
@@ -55,4 +57,13 @@
             @include transitionProperty;
         }
     }
+}
+
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
 }
